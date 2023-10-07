@@ -1,2 +1,2 @@
-# Loja_javascript
-Arquivos do projeto 
+# ARQUIVOS DO PROJETO Loja_javascript
+CODIGO FONTES E IMG 
