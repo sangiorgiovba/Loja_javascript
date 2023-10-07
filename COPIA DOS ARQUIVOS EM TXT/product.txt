@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>produtos</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="jquery-ui.min.css" />
+    <link rel="stylesheet" href="nice-select.css" />
+
+    <link rel="stylesheet" href="css/material-icons.css" />
+
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="ion.rangeSlider.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header
+      class="header-section pos-relative light-bg sticky-header d-none d-lg-block section-fluid-270"
+    >
+      <div class="header-wrapper pos-relative">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+              <a href="#" class="header-logo">
+                <img src="logo.png" alt="" class="img-fluid" />
+              </a>
+            </div>
+
+            <div class="col-auto d-flex align-items-center">
+              <div class="header-event">
+                <div class="menu-event dropdown">
+                  <button
+                    class="main-menu-event dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                  >
+                    <img src="img/icons/icon-open-menu.svg" alt="" />
+                    <span>Menu</span>
+                    <img src="img/icons/icon-arrow-drop-down.svg" alt="" />
+                  </button>
+                  <ul class="mainmenu-nav dropdown-menu">
+                    <li class="menu-items">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-items">
+                      <a href="#"
+                        >Masculino
+                        <span class="material-icons">arrow_right</span>
+                      </a>
+                      <div class="has-dropdown megamenu">
+                        <div class="menu-content">
+                          <h6 class="title">Destaques</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Camisetas</a></li>
+                            <li><a href="#">Camisas</a></li>
+                            <li><a href="#">Moletons</a></li>
+                            <li><a href="#">Blusas</a></li>
+                            <li><a href="#">Ternos</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu-content">
+                          <h6 class="title">Destaques</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Calcas</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Blusas</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu-content">
+                          <h6 class="title">Outros Itens</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Calçados</a></li>
+                            <li><a href="#">Cuidado pessoal</a></li>
+                            <li><a href="#">Oculos de sol</a></li>
+                            <li><a href="#">Relogios</a></li>
+                            <li><a href="#">Desodorantes</a></li>
+                            <li><a href="#">Dispositivos inteligentes</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-items">
+                      <a href="#"
+                        >Feminino
+                        <span class="material-icons">arrow_right</span>
+                      </a>
+                      <div class="has-dropdown megamenu">
+                        <div class="menu-content">
+                          <h6 class="title">Destaques</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Saias</a></li>
+                            <li><a href="#">Vestidos</a></li>
+                            <li><a href="#">Legging</a></li>
+                            <li><a href="#">Polo</a></li>
+                            <li><a href="#">Sapatos</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu-content">
+                          <h6 class="title">Destaques</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Vestidos</a></li>
+                            <li><a href="#">Sapatos</a></li>
+                            <li><a href="#">Tops</a></li>
+                            <li><a href="#">Jeans</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu-content">
+                          <h6 class="title">Outros Itens</h6>
+                          <ul class="submenu">
+                            <li><a href="#">Calçados</a></li>
+                            <li><a href="#">Jóias</a></li>
+                            <li><a href="#">Oculos de sol</a></li>
+                            <li><a href="#">Relogios</a></li>
+                            <li><a href="#">Desodorantes</a></li>
+                            <li><a href="#">Dispositivos inteligentes</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-items">
+                      <a href="#"
+                        >Beleza
+                        <span class="material-icons">arrow_right</span>
+                      </a>
+                      <div class="has-dropdown">
+                        <div class="menu-content">
+                          <h6 class="title">Compre das principais marcas</h6>
+                          <ul class="submenu">
+                            <li><a href="#">LOreal</a></li>
+                            <li><a href="#">LOreal</a></li>
+                            <li><a href="#">LOreal</a></li>
+                            <li><a href="#">LOreal</a></li>
+                            <li><a href="#">LOreal</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-items">
+                      <a href="#">Home & Produtos</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="search-event">
+                  <input
+                    type="search"
+                    placeholder="Pesquisar..."
+                    class="header-search"
+                  />
+                  <button class="header-search-btn" aria-label="Name">
+                    <img src="img/icons/icon-search.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-auto">
+              <div class="header-action">
+                <button
+                  class="header-action-item header-action-wishlist"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#wishlistOffcanvas"
+                >
+                  <img src="img/icons/icon-heart-dark.svg" alt="" />
+                  <span class="count-tag">03</span>
+                </button>
+                <button
+                  class="header-action-item header-action-wishlist"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#addcartOffcanvas"
+                >
+                  <img src="img/icons/icon-shopping-bag-dark.svg" alt="" />
+                  <span class="item-count item-count--light">03 ITEMS</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-header d-block d-lg-none">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto">
+            <div class="mobile-logo">
+              <a href="index.html">
+                <img src="logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="mobile-action-link text-end d-flex">
+              <button data-bs-toggle="offcanvas" data-bs-target="#toggleMenu">
+                <span class="material-icons">menu</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="toggleMenu">
+      <div class="offcanvas-header">
+        <button
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-flex justify-content-center">
+          <a href="#" class="header-action-item header-action-wishlist">
+            <img src="img/icons/icon-heart-dark.svg" alt="" />
+            <span class="count-tag">03</span>
+          </a>
+          <a href="#" class="header-action-item header-action-wishlist">
+            <img src="img/icons/icon-shopping-bag-dark.svg" alt="" />
+            <span class="item-count">03 ITEMS</span>
+          </a>
+        </div>
+        <div class="header-event mobile-search my-5">
+          <div class="search-event">
+            <input type="search" class="header-search" aria-label="Name" />
+            <button class="header-search-btn" aria-label="Name">
+              <img src="img/icons/icon-search.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="offcanvas-mobile-menu-wrapper">
+          <div class="mobile-menu-bottom">
+            <div class="offcanvas-menu">
+              <ul>
+                <li>
+                  <a href="#"><span>Home</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Masculino</span></a>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Destaques</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Camisetas</a></li>
+                        <li><a href="#">Camisas</a></li>
+                        <li><a href="#">Moletons</a></li>
+                        <li><a href="#">Blusas</a></li>
+                        <li><a href="#">Ternos</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Destaques</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Calcas</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Outros Items</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Calçados</a></li>
+                        <li><a href="#">Cuidado pessoal</a></li>
+                        <li><a href="#">Oculos de sol</a></li>
+                        <li><a href="#">Relogios</a></li>
+                        <li><a href="#">Desodorantes</a></li>
+                        <li><a href="#">Dispositivos inteligentes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><span>Feminina</span></a>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Destaques</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Saias</a></li>
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Legging</a></li>
+                        <li><a href="#">Polo</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Destaques</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                        <li><a href="#">Tops</a></li>
+                        <li><a href="#">Jeans</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Outros Items</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">Calçados</a></li>
+                        <li><a href="#">Jóias</a></li>
+                        <li><a href="#">Oculos de sol</a></li>
+                        <li><a href="#">Relogios</a></li>
+                        <li><a href="#">Desodorantes</a></li>
+                        <li><a href="#">Dispositivos inteligentes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><span>Beleza</span></a>
+                  <ul class="mobile-sub-menu">
+                    <li>
+                      <a href="#">Compre Das Principais marcas</a>
+                      <ul class="mobile-sub-menu">
+                        <li><a href="#">LOreal</a></li>
+                        <li><a href="#">LOreal</a></li>
+                        <li><a href="#">LOreal</a></li>
+                        <li><a href="#">LOreal</a></li>
+                        <li><a href="#">LOreal</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Home & Produtos</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mobile-contact-info text-center">
+            <div class="social-link">
+              <li>
+                <a href="#">
+                  <img
+                    src="img/icons/icon-facebook-f-dark.svg"
+                    alt=""
+                    class="icon-svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="img/icons/icon-dribbble-dark.svg"
+                    alt=""
+                    class="icon-svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="img/icons/icon-twitter-dark.svg"
+                    alt=""
+                    class="icon-svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="img/icons/icon-pinterest-p-dark.svg"
+                    alt=""
+                    class="icon-svg"
+                  />
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="wishlistOffcanvas">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Lista de Favoritos</h5>
+        <button
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="offcanvas-products-list">
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/calcado.jpg" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Puma</a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 24.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/terno.jfif" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Terno</a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 60.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/camiseta.jfif" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Camiseta</a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 138.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+        </ul>
+        <div class="offcanvas-action-link">
+          <a href="#" class="btn">Ver lista de Favoritos</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="addcartOffcanvas">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">+ Carrinho</h5>
+        <button
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="offcanvas-products-list">
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/calcado.jpg" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Puma </a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 56.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/terno.jfif" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Terno</a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 45.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+          <li class="single-item">
+            <div class="box">
+              <a href="#" class="image">
+                <img src="img/pequenas/camiseta.jfif" alt="" />
+              </a>
+              <div class="content">
+                <a href="#" class="title">Camiseta</a>
+                <div>
+                  <span>1 x </span>
+                  <span>R$ 138.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="item-delete text-right">
+              <a href="#"><img src="img/icons/icon-trash.svg" alt="" /></a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="offcanvas-action-link">
+          <a href="#" class="btn">+ Carrinho</a>
+          <a href="#" class="btn">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="breadcrumb-section">
+      <div class="box-wrapper">
+        <div class="breadcrumb-wrapper b-wrapper pos-relative">
+          <div class="breadcrumb-bg">
+            <img src="bread.jpg" alt="" />
+          </div>
+          <div class="breadcrumb-content section-fluid-270">
+            <div class="breadcrumb-wrapper">
+              <div class="content">
+                <span class="title-tag">Melhor negócio na Internet</span>
+                <h2 class="title">
+                  <span class="text-mark"> Pressa ! </span>
+                  <br />
+                  Obtenha seus favoritos agora
+                </h2>
+              </div>
+              <ul class="breadcrumb-nav">
+                <li><a href="#">Comprar</a></li>
+                <li>Página do produto</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-list-section section-fluid-270 section-top-gap-100">
+      <div class="box-wrapper">
+        <div class="shop-list-wrapper">
+          <div class="container-fluid">
+            <div class="row flex-column-reverse flex-lg-row">
+              <div class="col-xl-3 col-lg-3">
+                <div class="sidebar-section">
+                  <div class="sidebar-single-widget">
+                    <h6 class="sidebar-title title-border">Categorias</h6>
+                    <div class="sidebar-content">
+                      <div class="filter-type-select">
+                        <ul>
+                          <li>
+                            <label for="men" class="checkbox-default">
+                              <input type="checkbox" id="men" />
+                              <span>Masculino</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="women" class="checkbox-default">
+                              <input type="checkbox" id="women" />
+                              <span>Feminino</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="kid" class="checkbox-default">
+                              <input type="checkbox" id="kid" />
+                              <span>Criancas</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="grooming" class="checkbox-default">
+                              <input type="checkbox" id="gromming" />
+                              <span>Bom Gostos</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="toys" class="checkbox-default">
+                              <input type="checkbox" id="toys" />
+                              <span>Brinquedos</span>
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-single-widget">
+                    <h6 class="sidebar-title title-border">Cor</h6>
+                    <div class="sidebar-content">
+                      <div class="filter-type-select">
+                        <ul>
+                          <li>
+                            <label for="men" class="checkbox-default">
+                              <input type="checkbox" id="men" />
+                              <span>Preto</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="women" class="checkbox-default">
+                              <input type="checkbox" id="women" />
+                              <span>Azul</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="kid" class="checkbox-default">
+                              <input type="checkbox" id="kid" />
+                              <span>Cinza</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="grooming" class="checkbox-default">
+                              <input type="checkbox" id="gromming" />
+                              <span>Vermelho</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="toys" class="checkbox-default">
+                              <input type="checkbox" id="toys" />
+                              <span>Rosa</span>
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sidebar-single-widget">
+                    <h6 class="sidebar-title title-border">
+                      Filtrar por preço
+                    </h6>
+                    <div class="sidebar-content">
+                      <input
+                        type="text"
+                        name="my_range"
+                        value=""
+                        class="js-range-slider"
+                        data-type="double"
+                        data-min="0"
+                        data-max="30000"
+                        data-from="1500"
+                        data-to="20000"
+                      />
+                    </div>
+                  </div>
+                  <div class="sidebar-single-widget">
+                    <h6 class="sidebar-title title-border">Material</h6>
+                    <div class="sidebar-content">
+                      <div class="filter-type-select">
+                        <ul>
+                          <li>
+                            <label for="Fabric" class="checkbox-default">
+                              <input type="checkbox" id="Fabric" />
+                              <span>Fabricante</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="women" class="checkbox-default">
+                              <input type="checkbox" id="women" />
+                              <span>Algodão</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="kid" class="checkbox-default">
+                              <input type="checkbox" id="kid" />
+                              <span>crochê</span>
+                            </label>
+                          </li>
+                          <li>
+                            <label for="grooming" class="checkbox-default">
+                              <input type="checkbox" id="gromming" />
+                              <span>Roupas</span>
+                            </label>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sidebar-single-widget">
+                    <div class="sidebar-content">
+                      <div class="banner-animate--flash">
+                        <a href="#" class="sidebar-banner img-responsive">
+                            <!-- verificar esta img -->
+                          <img src="banner-side.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-single-widget">
+                    <h6 class="sidebar-title title-border">Tags</h6>
+                    <div class="sidebar-content">
+                      <ul class="tag-link">
+                        <li><a href="#">Relogios</a></li>
+                        <li><a href="#">Joias</a></li>
+                        <li><a href="#">Roupas</a></li>
+                        <li><a href="#">Casamento</a></li>
+                        <li><a href="#">Perfumes</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-8 offset-xl-1 col-lg-9">
+                <ul class="product-shop-filter-info">
+                  <li class="product-item-tracking">
+                    <span>total</span>
+                  </li>
+                  <li class="product-item-filter">
+                    <select name="choice" id="">
+                      <option value="first">Mercadorias Recentes</option>
+                      <option value="first" selected>Apresentacao</option>
+                      <option value="first">Mais popular</option>
+                      <option value="first">Preco Decrescente</option>
+                      <option value="first">Preco Crecente</option>
+                    </select>
+                  </li>
+                </ul>
+                <div class="product-shop-list-items">
+                  <div class="row mb-n25">
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p1.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                          <ul class="tooltip-tag-items">
+                            <li class="color-green">20%</li>
+                          </ul>
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p2.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p3.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p4.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p5.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p6.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p7.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-25">
+                      <div class="product-single-item-style-1">
+                        <a href="#" class="image img-responsive">
+                          <img
+                            src="img/produtos/p8.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </a>
+                        <div class="content">
+                          <div class="top">
+                            <span class="category">Masculino</span>
+                            <h4 class="title">
+                              <a href="#">Puma</a>
+                            </h4>
+                            <span class="price"
+                              >R$. 47.99
+                              <del>R$. 59.99</del>
+                            </span>
+                          </div>
+                          <div class="bottom">
+                            <ul class="review-star">
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star</span>
+                              </li>
+                              <li class="fill">
+                                <span class="material-icons">star_half</span>
+                              </li>
+                            </ul>
+                            <div class="product-event-items">
+                              <a href="#" class="btn cart-btn-s">
+                                <i class="fa fa-shopping-cart"></i>
+                              </a>
+                              <a href="#" class="btn wishlist-btn">
+                                <span class="material-icons"
+                                  >favorite_border</span
+                                >
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <ul class="page-pagination">
+                    <li class="icon-direction icon-direction--prev">
+                      <a href="#">
+                        <span class="material-icons-outlined">arrow_left</span>
+                      </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li>...</li>
+                    <li><a href="#">10</a></li>
+                    <li class="icon-direction icon-direction--next">
+                      <a href="#">
+                        <span class="material-icons-outlined">arrow_right</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section footer-section-style-1 section-top-gap-120">
+      <div class="box-wrapper">
+        <div class="footer-wrapper section-fluid-270">
+          <div class="container-fluid">
+            <div class="footer-top">
+              <div class="footer-top-left">
+                <div class="footer-contact-items">
+                  <a href="tel:+91-9898989898" class="icon-left">
+                    <img
+                      src="img/icons/icon-ios-call-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                    0524587854254
+                  </a>
+                  <a href="Sangiorgiovba@gmail.com" class="icon-left">
+                    <img
+                      src="img/icons/icon-mail-open-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                    Sangiorgiovba@gmail.com
+                  </a>
+                </div>
+              </div>
+              <div class="footer-top-right">
+                <div class="footer-social">
+                  <a href="#">
+                    <img
+                      src="img/icons/icon-facebook-f-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="img/icons/icon-dribbble-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="img/icons/icon-pinterest-p-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="img/icons/icon-twitter-dark.svg"
+                      alt=""
+                      class="icon-svg"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-center">
+              <div class="footer-widgets-items">
+                <div
+                  class="footer-widgets-single-items footer-widgets-single-item--light"
+                >
+                  <h5 class="title">Produtos</h5>
+                  <h5
+                    class="collapsed-title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dividerId-1"
+                  >
+                    Produtos
+                  </h5>
+                  <div class="widget-collapse-body collapse" id="dividerId-1">
+                    <ul class="footer-nav">
+                      <li><a href="#">Masculinos</a></li>
+                      <li><a href="#">Femininos</a></li>
+                      <li><a href="#">Criancas</a></li>
+                      <li><a href="#">Home & Produtos</a></li>
+                      <li><a href="#">Beleza</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="footer-widgets-single-items footer-widgets-single-item--light"
+                >
+                  <h5 class="title">Ofertas</h5>
+                  <h5
+                    class="collapsed-title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dividerId-2"
+                  >
+                    Ofertas
+                  </h5>
+                  <div class="widget-collapse-body collapse" id="dividerId-2">
+                    <ul class="footer-nav">
+                      <li><a href="#">Cartões de presente</a></li>
+                      <li><a href="#">Pontos internos</a></li>
+                      <li><a href="#">Cupons</a></li>
+                      <li><a href="#">Especial de aniversário</a></li>
+                      <li><a href="#">Temporada festiva</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="footer-widgets-single-items footer-widgets-single-item--light"
+                >
+                  <h5 class="title">Informação</h5>
+                  <h5
+                    class="collapsed-title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dividerId-3"
+                  >
+                    Informação
+                  </h5>
+                  <div class="widget-collapse-body collapse" id="dividerId-3">
+                    <ul class="footer-nav">
+                      <li><a href="#">Contate-nos</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">T&C</a></li>
+                      <li><a href="#">Termos de uso</a></li>
+                      <li><a href="#">Rastrear pedidos</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="footer-widgets-single-items footer-widgets-single-item--light"
+                >
+                  <h5 class="title">Links Úteis</h5>
+                  <h5
+                    class="collapsed-title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#dividerId-4"
+                  >
+                    Links Úteis
+                  </h5>
+                  <div class="widget-collapse-body collapse" id="dividerId-4">
+                    <ul class="footer-nav">
+                      <li><a href="#">Envio</a></li>
+                      <li><a href="#">Cancelamento</a></li>
+                      <li><a href="#">Devoluções</a></li>
+                      <li><a href="#">Carreiras</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p class="copyright-text copyright-text--light">
+                &copy; 2023 . <span class="material-icons">Criado</span> Por
+                <a href="#"> Sangiorgiovba@gmail.com</a>
+              </p>
+              <a href="#" class="payment-logo">
+                <img src="img/logo/pagamento.png" alt="" class="img-fluid" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="scroll-to-top" class="scroll-to-top">
+      <span class="material-icons-outlined">expand_less</span>
+    </div>
+
+    <script src=" js/modernizr-3.11.2.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="ion.rangeSlider.min.js"></script>
+    <script src="jquery.nice-select.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
